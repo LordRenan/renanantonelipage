@@ -1,0 +1,392 @@
+/* #000000,#6C7778,#91B5B2,#357178 */
+
+:root{
+    /* --primary-color: #1f1f1f; */
+    /* --secondary-color: #232323; */
+    --primary-color: rgb(28, 28, 29);
+    --secondary-color: rgb(35, 35, 37);
+    --btn-color-1: red;
+    --btn-color-2: rgb(153, 0, 0);
+    --default-font-size: 1rem;
+    --default-font-color: #ffffff;
+}
+
+h1{
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin: 0;
+    margin-top: 4%;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    margin-top: 4%;
+}
+
+a {
+    color: var(--default-font-color);
+    text-decoration: none;
+
+}
+
+a:visited, a:active{
+    text-decoration: none;
+    counter-reset: var(--default-font-color);
+}
+
+html{
+    scroll-behavior: smooth !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    /* background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color)); */
+    background-color: #000000;
+    font-size: var(--default-font-size);
+    color: var(--default-font-color);
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    /* border-bottom: 1px solid #bcb8b1; */
+    float: left;
+    /* background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color)); */
+    background-color: #000;
+    justify-content: center;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-option{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    padding-top: 5%;
+    display: flex;
+}
+
+.article-contact{
+    height: 90vh;
+}
+
+.article-left, .article-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+
+
+.article-right{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.home-headline{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 20%;
+}
+
+.name{
+    font-weight: 1000;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.profession{
+    font-size: 1;
+    color: #bcb8b1;
+    margin: 0;
+}
+
+.home{
+    /* background-image: radial-gradient(closest-side, #000000 60%,#6C7778,#91B5B2,#357178); */
+
+    /* background-image: radial-gradient(closest-side, #357178 , #91B5B2 20%, #6C7778, #000000 60%); */
+
+    background-image: linear-gradient(130deg, #000000 60%,#6C7778,#91B5B2,#357178);
+
+    /* background-image: radial-gradient(ellipse farthest-corner at 0 140%, #000000 70%, #6C7778 5%, #91B5B2 5%, #357178 20%); */
+
+}
+
+.technologies, .education, .languages, .projects, .contact{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.technologies{
+    background-image: linear-gradient(130deg, #000000 55%,#6C7778,#91B5B2,#357178);
+}
+
+.education{
+    flex-direction: row-reverse;
+}
+
+
+.buttons{
+    width: 80%;
+    height: 8%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.btn{
+    width: 45%;
+    height: 100%;
+    /* background-color: #bcb8b1; */
+    /* background-image: linear-gradient(to right, var(--btn-color-1), var(--btn-color-2)); */
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+    
+    border-radius: 5px;
+    font-size: 1rem;
+    /* color: var(--default-font-color); */
+    border: none;
+}
+
+.btn-1{
+    color: #000;
+}
+
+.btn-2{
+    margin-left: 4%;
+    background-image: linear-gradient(to right, transparent, transparent);
+    border: double 4px transparent;
+    /* border-image: linear-gradient(to right, var(--primary-color), var(--secondary-color)); */
+    border-image: linear-gradient(to right, #00b09b, #96c93d);
+    border-image-slice: 1 !important;
+    border-radius: 20px !important;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background: none;
+    color: #ffffff;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: black;
+    color: gray;
+}
+
+.btn-contact{
+    width: 80%;
+    height: 60%;
+    /* background-color: aqua; */
+    border-radius: 5px;
+    color: var(--default-font-color);
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+    
+    border: none;
+}
+
+.contact{
+    background-color: black;
+}
+
+.languages{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(25 25 27);
+}
+
+.language-card, .project-card{
+    width: 25%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 9px 5px 15px 5px #00000070
+}
+
+.card-header{
+    width: 100%;
+    height: 20%;
+}
+
+.card-body{
+    width: 100%;
+    height: 60%;
+}
+
+.card-footer{
+    width: 100%;
+    height: 20%;
+}
+
+.cont-languages{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.language-effect, .project-effect{
+    width: 25%;
+    height: 63%;
+    border-radius: 10px;
+    background: linear-gradient(to top, #000000, transparent);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.english{
+    background-image: url(./img/estatua-da-liberdade-01.webp);
+    width: 25%;
+    height: 70%;
+    background-size: cover;
+}
+
+.spanish{
+    background-image: url(./img/sagrada_familia.jpg);
+    width: 25%;
+    height: 70%;
+    background-size: cover;
+
+}
+
+.french{
+    background-image: url(./img/Torre-Eiffel.jpg);
+    width: 25%;
+    height: 70%;
+    background-size: cover;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cont-projects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cida{
+    background-image: url(./img/CidaWebsite.png);
+    background-size: cover;
+    
+}
+
+.project-card{
+
+}
+
+.cont-infos{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.article-contact-left{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-text{
+    padding-left: 4%;
+}
+
+.info-icon{
+    width: 4%;
+    height: 80%;
+}
+
+.div-info{
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+
+.article-resume-left{
+    padding-left: 10%;
+}
+
+.pipe-gradient{
+    background: -webkit-linear-gradient(#00b09b, #96c93d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+
+.technologies-content{
+    width: 100%;
+    height: 100%;
+}
+
+.tecnology-text{
+    width: 100%;
+    height: 10%;
+    margin-top: 7%;
+}
