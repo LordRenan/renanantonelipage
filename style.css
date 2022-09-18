@@ -275,9 +275,28 @@ body{
     align-items: center;
 }
 
-.language-effect, .project-effect{
+.language-effect{
     width: 25%;
-    height: 63%;
+    height: 66%;
+    border-radius: 10px;
+    background: linear-gradient(to top, #000000, transparent);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-card{
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+.project-effect{
+    width: 30%;
+    height: 47%;
     border-radius: 10px;
     background: linear-gradient(to top, #000000, transparent);
     position: absolute;
@@ -321,15 +340,31 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .cida{
     background-image: url(./img/CidaWebsite.png);
     background-size: cover;
-    
 }
 
-.project-card{
+.dashboard{
+    background-image: url(./img/dashboard.jpeg);
+    background-size: cover;
+}
+
+.rpa{
+    background-image: url(./img/rpa.png);
+    background-size: cover;
+    margin-left: 5%;
+}
+
+.machine-learning{
+    background-image: url(./img/machine_learning.png);
+    background-size: cover;
+    margin-left: 5%;
 
 }
 
