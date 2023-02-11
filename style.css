@@ -446,36 +446,42 @@ p{
     }
 
     .home, .about-me, .article, .cont-languages, .cont-projects, .contact, .education, .technologies{
-        /* height: 60vh !important; */
+        padding-top: 8%;
         flex-direction: column;
     }
 
+    .article-about-me{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .paragraph-about-me{
+        margin-top: 5%;
+    }
     .cont-languages{
         margin-top: 5%;
     }
 
     h1{
         margin-left: 5%;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     h2{
         margin-left: 5%;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .home-headline, .buttons{
         margin-left: 10%;
     }
 
-    .technologies-content, .paragraph, li{
-        /* margin-left: 5%; */
-        /* margin-right: 5%; */
-        font-size: 1.8rem;
+    .technologies-content, .paragraph, li, .info-text, span, h3{
+        font-size: 2rem;
     }
 
-    .info-text, span, h3{
-        font-size: 1.8rem;
+    .btn-1, .btn-2{
+        font-size: 1.5rem;
     }
 
     .info-icon{
@@ -489,7 +495,7 @@ p{
     }
 
     .language-effect{
-        height: 35%;
+        height: 34%;
         width: 101%;
     }
 
@@ -534,7 +540,7 @@ p{
     }
 
     .project-effect{
-        height: 25%;
+        height: 26.5%;
     }
 
     
