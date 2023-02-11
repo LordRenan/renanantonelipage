@@ -22,7 +22,7 @@ h2{
     margin-top: 4%;
 }
 
-ul{
+ul{     
     padding: 0;
 }
 
@@ -288,14 +288,14 @@ body{
 }
 
 .project-card{
-    width: 30%;
-    height: 40%;
+    width: 49%;
+    height: 47%;
     border-radius: 10px;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .project-effect{
-    width: 30%;
+    width: 49%;
     height: 47%;
     border-radius: 10px;
     background: linear-gradient(to top, #000000, transparent);
@@ -307,14 +307,14 @@ body{
 }
 
 .english{
-    background-image: url(./img/estatua-da-liberdade-01.webp);
+    background-image: url(./img/estatua_bandeira_eua.png);
     width: 25%;
     height: 70%;
     background-size: cover;
 }
 
 .spanish{
-    background-image: url(./img/sagrada_familia.jpg);
+    background-image: url(./img/sagrada_familia_bandeira_espanha.png);
     width: 25%;
     height: 70%;
     background-size: cover;
@@ -322,7 +322,7 @@ body{
 }
 
 .french{
-    background-image: url(./img/Torre-Eiffel.jpg);
+    background-image: url(./img/bandeira_franca_torre_eiffel.png);
     width: 25%;
     height: 70%;
     background-size: cover;
@@ -358,13 +358,13 @@ body{
 .rpa{
     background-image: url(./img/rpa.png);
     background-size: cover;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 .machine-learning{
     background-image: url(./img/machine_learning.png);
     background-size: cover;
-    margin-left: 5%;
+    margin-left: 1%;
 
 }
 
