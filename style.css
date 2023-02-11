@@ -450,6 +450,10 @@ p{
         flex-direction: column;
     }
 
+    .cont-languages{
+        margin-top: 5%;
+    }
+
     h1{
         margin-left: 5%;
         font-size: 3rem;
@@ -489,6 +493,10 @@ p{
         width: 101%;
     }
 
+    .home{
+        padding: 0%;
+    }
+
     .article-left, .article-right{
         width: 100% !important;
         height: 100% !important;
@@ -498,6 +506,7 @@ p{
     .article-left{
         display: flex;
         justify-content: center;
+        height: 89% !important;
     }
 
     .article-right{
