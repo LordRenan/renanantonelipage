@@ -425,3 +425,113 @@ p{
     height: 10%;
     margin-top: 7%;
 }
+
+
+/* A51 - 2400 x 1080 pixels */
+
+/* @media screen  and (max-device-width: 412px) and (max-device-height: 915px){ */
+@media screen  and (max-device-width: 800px) and (max-device-height: 1400px){
+    
+    .navbar{
+        height: 8vh;
+    }
+
+    .nav-option{
+        width: 17%;
+        font-size: 1.5rem;
+    }
+
+    .btn-contact{
+        height: 30%;
+    }
+
+    .home, .about-me, .article, .cont-languages, .cont-projects, .contact, .education, .technologies{
+        /* height: 60vh !important; */
+        flex-direction: column;
+    }
+
+    h1{
+        margin-left: 5%;
+        font-size: 3rem;
+    }
+
+    h2{
+        margin-left: 5%;
+        font-size: 2.5rem;
+    }
+
+    .home-headline, .buttons{
+        margin-left: 10%;
+    }
+
+    .technologies-content, .paragraph, li{
+        /* margin-left: 5%; */
+        /* margin-right: 5%; */
+        font-size: 1.8rem;
+    }
+
+    .info-text, span, h3{
+        font-size: 1.8rem;
+    }
+
+    .info-icon{
+        width: 7%;
+        height: 90%;
+    }
+
+    .language-card{
+        width: 100%;
+        height: 100%;
+    }
+
+    .language-effect{
+        height: 32.7%;
+        width: 101%;
+    }
+
+    .article-left, .article-right{
+        width: 100% !important;
+        height: 100% !important;
+        padding-left: 0;
+    }
+
+    .article-left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .article-right{
+        display: flex;
+        align-items: center;
+
+    }
+
+    p, li{
+        margin-left: 5%;
+    }
+
+    img{
+        padding-left: 0% !important;
+        margin-left: 4%;
+    }
+
+    .cont-projects{
+        flex-wrap: nowrap;
+    }
+
+    .project-card, .project-effect{
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-effect{
+        height: 25%;
+    }
+
+    
+}
+
+
+@media screen  and (min-device-width: 400px) and (max-device-height: 659px){
+    
+}
